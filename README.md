@@ -1,4 +1,4 @@
-# DLT算法的实现
-具体细节参考 
+# DLT算法的个人实现
 
-[我的知乎DLT](https://zhuanlan.zhihu.com/p/76047709)
+具体细节参考  https://zhuanlan.zhihu.com/p/76047709
+https://zhuanlan.zhihu.com/p/76047709
