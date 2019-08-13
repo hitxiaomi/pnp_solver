@@ -67,6 +67,7 @@ int main(int argc,char** argv) {
 
      std::cout<<"R_estimated "<< std::endl;
      std::cout<<R_estimate<<std::endl;
+     std::cout<<"R_derter:"<<R_estimate.determinant()<<std::endl;
 
      std::cout<<"K"<<std::endl;
      std::cout<<K<<std::endl;

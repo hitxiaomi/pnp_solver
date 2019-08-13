@@ -16,5 +16,5 @@ include_directories(
         ${PROJECT_SOURCE_DIR}
         ${EIGEN3_INCLUDE_DIR} )
 
-add_executable(pnp_solver test_dlt.cpp pnp_solver.cpp)
+add_executable(test_dlt test_dlt.cpp pnp_solver.cpp)
 add_executable(test_epnp  pnp_solver.cpp test_epnp.cpp)
