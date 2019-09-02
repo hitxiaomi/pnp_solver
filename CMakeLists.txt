@@ -15,6 +15,7 @@ message(STATUS "EIGEN3_DIR:"  ${EIGEN3_INCLUDE_DIR})
 include_directories(
         ${PROJECT_SOURCE_DIR}
         ${EIGEN3_INCLUDE_DIR} )
+set(EXECUTABLE_OUTPUT_PATH  ${PROJECT_SOURCE_DIR}/bin)
 
 add_executable(test_dlt test_dlt.cpp pnp_solver.cpp)
 add_executable(test_epnp  pnp_solver.cpp test_epnp.cpp)
